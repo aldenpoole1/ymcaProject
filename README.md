@@ -1,5 +1,5 @@
 # ymcaProject
-Project for building camp schedules at the Y, doubles as final project for AppDev I
+<p align="center">Project for building camp schedules at the Y, doubles as final project for AppDev I</p>
 
 Will have:
 
