@@ -2,6 +2,7 @@
 <p align="center">Project for building camp schedules at the Y, doubles as final project for AppDev I</p>
 <hr />
 <br>
+
 * **Will have:**
 
   - class for camp locations
