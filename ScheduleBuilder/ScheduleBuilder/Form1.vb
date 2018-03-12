@@ -25,5 +25,13 @@
         counselorName = CStr(txtCounselorName.Text)
 
         Dim group As New campGroup(counselorName, ageID, groupSize, groupName)
+
+        Dim groupDisplay As String
+        groupDisplay = group.displayInfo()
+        MessageBox.Show(groupDisplay)
+
+        My.Computer.FileSystem.WriteAllText("C:\Users\dpoole5\Documents\GitHub\ymcaProject\ScheduleBuilder\ScheduleBuilder\files\groupList.txt",
+        group.writeInfo, True)
+
     End Sub
 End Class

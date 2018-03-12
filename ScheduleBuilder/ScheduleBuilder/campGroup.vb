@@ -5,6 +5,8 @@ Public Class campGroup
     Dim groupSize As Integer
     Dim groupName As String
     Dim counselorName As String
+    Dim groupInfo As String
+    Dim groupDisplayInfo As String
 
     Public Sub New(ByVal name As String, ByVal age As Integer, ByVal size As Integer, ByVal group As String)
         counselorName = name
@@ -45,6 +47,15 @@ Public Class campGroup
 
     Public Function getCounselorName()
         Return counselorName
+    End Function
+
+    Public Function displayInfo()
+        groupDisplayInfo = "Counselor: " & counselorName & "  Group: " & groupName & "   Age ID: " & ageID & "   Group Size: " & groupSize
+        Return groupDisplayInfo
+    End Function
+    Public Function writeInfo()
+        groupInfo = "," & counselorName & "," & groupName & "," & ageID & "," & groupSize & ",break"
+        Return groupInfo
     End Function
 
 End Class

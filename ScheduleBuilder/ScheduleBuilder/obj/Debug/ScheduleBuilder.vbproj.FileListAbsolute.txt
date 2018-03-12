@@ -1,1 +1,11 @@
 c:\users\dpoole5\documents\visual studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\bin\Debug\ScheduleBuilder.exe.config
+c:\users\dpoole5\documents\visual studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\bin\Debug\ScheduleBuilder.exe
+c:\users\dpoole5\documents\visual studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\bin\Debug\ScheduleBuilder.pdb
+c:\users\dpoole5\documents\visual studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\bin\Debug\ScheduleBuilder.xml
+c:\users\dpoole5\documents\visual studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.vbprojResolveAssemblyReference.cache
+c:\users\dpoole5\documents\visual studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.Form1.resources
+c:\users\dpoole5\documents\visual studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.Resources.resources
+c:\users\dpoole5\documents\visual studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.vbproj.GenerateResource.Cache
+c:\users\dpoole5\documents\visual studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.exe
+c:\users\dpoole5\documents\visual studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.xml
+c:\users\dpoole5\documents\visual studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.pdb
