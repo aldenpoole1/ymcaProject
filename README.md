@@ -1,5 +1,7 @@
 ### <p align="center">Cherokee Outdoor YMCA Schedule Building Project</p>
 <p align="center">Project for building camp schedules at the Y, doubles as final project for AppDev I</p>
+<br>
+<hr />
 
 * **Will have:**
 
