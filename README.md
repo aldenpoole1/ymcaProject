@@ -1,7 +1,7 @@
-# ymcaProject
+<p align="center"># Cherokee Outdoor YMCA Schedule Building Project</p>
 <p align="center">Project for building camp schedules at the Y, doubles as final project for AppDev I</p>
-
-Will have:
+<p>
+#Will have:
 
   class for camp locations
   locationList for saving those locations
