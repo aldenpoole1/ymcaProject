@@ -18,26 +18,33 @@ Public Class campGroup
     End Sub
 
 
-    Public Sub int getAgeId()
+    Public Sub getAgeId()
         Return ageID
     End Sub
 
-    Public setGroupName(String x)
-        groupName = x;
-        
-Public String getGroupName()
-        Return groupName;
-        
-Public int setGroupSize(int x)
-        groupSize = x;
-        
-Public getGroupSize()
-    Return groupSize;
-        
-Public setCounselorName(String x)
-        counselorName = x;
-        
-Public String getCounselorName()
-        Return counselorName;
+    Public Sub setGroupName(ByVal x As String)
+        groupName = x
+    End Sub
+
+    Public Sub getGroupName()
+        Return groupName
+    End Sub
+
+
+    Public Sub setGroupSize(ByVal x As Integer)
+        groupSize = x
+    End Sub
+
+    Public Sub getGroupSize()
+        Return groupSize
+    End Sub
+
+    Public Sub setCounselorName(ByVal x As String)
+        counselorName = x
+    End Sub
+
+    Public Sub getCounselorName()
+        Return counselorName
+    End Sub
 
 End Class
