@@ -15,9 +15,13 @@
   - **campGroup** class for camp group creation, set/gets, and get/display information methods
   
   
-  <p>
+  **NOTE**
+  I still haven't discovered how to relatively link source in visual basic, for now, locations and groups will be stored in lists that will need to be repopulated in each instance of the program. Any text file editing is done locally and for my debugging purposes.
+  
+  
+ **Project Case**
   The Cherokee Outdoor YMCA in Woodstock runs a summer camp that serves around 450 children per week on average. With a ratio of about twelve kids to one group, the camp operates up to thirty seven groups on 200 acres of property. Currently, they do not have any application or program to build schedules for each group. Instead, each group counselor creates their own schedule. This leads to schedule conflicts where there are too many children at one location or mismatched age groups such as 7th graders at a location playing alongside 1st graders. Over the years that I have observed this system, no solution has been suggested for this problem. My application will streamline the schedule making process and ensure no conflicts are created.
-  </p>
+
 **Input:**
 
 Users will be able to add locations with age and size limits as well as add groups with age ids, sizes, names, and counselor names.
