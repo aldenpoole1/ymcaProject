@@ -16,7 +16,7 @@
   
   
   **NOTE**
-  I still haven't discovered how to relatively link source in visual basic, for now, locations and groups will be stored in lists that will need to be repopulated in each instance of the program. Any text file editing is done locally and for my debugging purposes.
+  I still haven't discovered how to relatively link sources in visual basic. For now, locations and groups will be stored in lists that will need to be repopulated in each instance of the program. Any text file editing is done locally and for my debugging purposes.
   
   
  **Project Case**
