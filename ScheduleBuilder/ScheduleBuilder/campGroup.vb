@@ -1,4 +1,6 @@
-﻿Imports Microsoft.VisualBasic
+﻿'Class for campGroup object
+'Author: Alden Poole
+Imports Microsoft.VisualBasic
 
 Public Class campGroup
     Dim ageID As Integer
@@ -7,7 +9,7 @@ Public Class campGroup
     Dim counselorName As String
     Dim groupInfo As String
     Dim groupDisplayInfo As String
-
+    'Construct new group
     Public Sub New(ByVal name As String, ByVal age As Integer, ByVal size As Integer, ByVal group As String)
         counselorName = name
         ageID = age
@@ -48,13 +50,14 @@ Public Class campGroup
     Public Function getCounselorName()
         Return counselorName
     End Function
-
+    'Function for displaying info for debug
     Public Function displayInfo()
         groupDisplayInfo = "Counselor: " & counselorName & "  Group: " & groupName & "   Age ID: " & ageID & "   Group Size: " & groupSize
         Return groupDisplayInfo
     End Function
+    'Function for writing information to file
     Public Function writeInfo()
-        groupInfo = "," & counselorName & "," & groupName & "," & ageID & "," & groupSize & ",break"
+        groupInfo = counselorName & "," & groupName & "," & ageID & "," & groupSize & Environment.NewLine
         Return groupInfo
     End Function
 
