@@ -11,6 +11,7 @@
   - **Form1** changed to **GroupCreator**
   - Added new **GroupCreator** functions. Creates list of group objects for scheduling. Tests against location availability.
   - Added **Location Creator** but it is not functional.
+  
   **Unchanged:** 
   - **campGroup** class for camp group creation, set/gets, and get/display information methods
   
