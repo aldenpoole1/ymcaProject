@@ -1,0 +1,3 @@
+﻿Forts,,2,26
+Pool,,1,100
+Playground,,1,32

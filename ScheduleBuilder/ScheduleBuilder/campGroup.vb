@@ -1,4 +1,6 @@
-﻿Imports Microsoft.VisualBasic
+﻿'Class for campGroup object
+'Author: Alden Poole
+Imports Microsoft.VisualBasic
 
 Public Class campGroup
     Dim ageID As Integer
@@ -7,7 +9,9 @@ Public Class campGroup
     Dim counselorName As String
     Dim groupInfo As String
     Dim groupDisplayInfo As String
-
+    Dim blockList As New List(Of String)
+    Dim locationString As String = ""
+    'Construct new group
     Public Sub New(ByVal name As String, ByVal age As Integer, ByVal size As Integer, ByVal group As String)
         counselorName = name
         ageID = age
@@ -48,14 +52,33 @@ Public Class campGroup
     Public Function getCounselorName()
         Return counselorName
     End Function
-
+    'Function for displaying info for debug
     Public Function displayInfo()
         groupDisplayInfo = "Counselor: " & counselorName & "  Group: " & groupName & "   Age ID: " & ageID & "   Group Size: " & groupSize
         Return groupDisplayInfo
     End Function
+    'Function for writing information to file
     Public Function writeInfo()
-        groupInfo = "," & counselorName & "," & groupName & "," & ageID & "," & groupSize & ",break"
+        groupInfo = counselorName & "," & groupName & "," & ageID & "," & groupSize & Environment.NewLine
         Return groupInfo
     End Function
 
+    Public Sub addBlock(ByVal block As String)
+        blockList.Add(block)
+        locationString = locationString & ", " & block
+    End Sub
+
+    Public Function getBlocks(ByVal index As Integer)
+        Return blockList(index)
+    End Function
+
+    Public Function getBlockList()
+        Return blockList
+    End Function
+    Public Function getBlockLength()
+        Return blockList.Count()
+    End Function
+    Public Function getLocString()
+        Return locationString
+    End Function
 End Class
