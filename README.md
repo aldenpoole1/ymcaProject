@@ -1,3 +1,5 @@
+### <p align="center">***Class Project has finished, so VB development is done. Gutted program for project description and presentation. Continuing development in JavaScript and adding all functionality.***</p>
+
 ### <p align="center">Cherokee Outdoor YMCA Schedule Building Project</p>
 <p align="center">Project for building camp schedules at the Y, doubles as final project for AppDev I</p>
 <p>See project description under update feed.</p>
