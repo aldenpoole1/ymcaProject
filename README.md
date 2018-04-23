@@ -6,16 +6,18 @@
 <hr />
 <br>
 
-* **UPDATED 3/22/18**
+* **UPDATED 4/23/18**
+  - **Schedule Creator** has been gutted. Creates a simple schedule with a random location selector. Has a drop down menu to create a schedule for one group at a time.
+   - **Added Schedule** creates a table with schedule block information from campGroup class
 
-  - Added **campLocation** object for creating locations
-  - Added **Main Window** form with buttons for opening the group creator, location creator, and (unfinsished) schedule creator
-  - **Form1** changed to **GroupCreator**
-  - Added new **GroupCreator** functions. Creates list of group objects for scheduling. Tests against location availability.
-  - Added **LocationCreator** but it is not functional.
   
   **Unchanged:** 
   - **campGroup** class for camp group creation, set/gets, and get/display information methods
+   -**campLocation** object for creating locations
+  - **Main Window** form with buttons for opening the group creator, location creator, and (unfinsished) schedule creator
+  - **Form1** changed to **GroupCreator**
+  - **GroupCreator** functions. Creates list of group objects for scheduling. Tests against location availability.
+  - **LocationCreator** but it is not functional.
   
   **ON THE HORIZON**
   - Finishing **LocationCreator** class to mirror functionality of the **GroupCreator** class
