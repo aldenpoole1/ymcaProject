@@ -9,8 +9,11 @@ Public Class campGroup
     Dim counselorName As String
     Dim groupInfo As String
     Dim groupDisplayInfo As String
+<<<<<<< HEAD
     Dim blockList As New List(Of String)
     Dim locationString As String = ""
+=======
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
     'Construct new group
     Public Sub New(ByVal name As String, ByVal age As Integer, ByVal size As Integer, ByVal group As String)
         counselorName = name

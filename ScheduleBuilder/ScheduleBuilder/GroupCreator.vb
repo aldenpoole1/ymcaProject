@@ -26,7 +26,11 @@ Public Class GroupCreator
             ageID = 3
         ElseIf (radBear.Checked) Then
             ageID = 4
+<<<<<<< HEAD
         ElseIf (radTeen.Checked) Then
+=======
+        ElseIf (radBob.Checked) Then
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
             ageID = 5
         Else
             ageID = 1
@@ -50,9 +54,14 @@ Public Class GroupCreator
         groupDisplay = group.displayInfo()
         MessageBox.Show(groupDisplay)
         'Save in a file to read later
+<<<<<<< HEAD
 
         'My.Computer.FileSystem.WriteAllText("E:\Programming Projects\ScheduleBuilder\ScheduleBuilder\ScheduleBuilder\text\groupsList.txt",
         'group.writeInfo, True)
+=======
+        My.Computer.FileSystem.WriteAllText("E:\Programming Projects\ScheduleBuilder\ScheduleBuilder\ScheduleBuilder\text\groupsList.txt",
+        group.writeInfo, True)
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         'Loop for user determined amount of groups/ add group windows
         If groupNum = 0 Then
             Me.Close()

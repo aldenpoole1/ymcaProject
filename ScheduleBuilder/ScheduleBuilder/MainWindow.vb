@@ -2,6 +2,7 @@
 'Author: Alden Poole
 Public Class MainWindow
     Dim groupNum As Integer
+<<<<<<< HEAD
     Dim locNum As Integer
     Public groupList As New List(Of campGroup)
     Public locationList As New List(Of campLocation)
@@ -11,6 +12,11 @@ Public Class MainWindow
     Dim scheduled As Boolean
     Dim printStuff As String = ""
     Dim debugFinally As String = ""
+=======
+    'Dim groupList() As campGroup
+    Public groupList As New List(Of campGroup)
+    Dim groupCount As Integer = 0
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
 
     Private Sub btnGroup_Click(sender As Object, e As EventArgs) Handles btnGroup.Click
         groupNum = CInt(txtGroupNum.Text)
@@ -24,6 +30,7 @@ Public Class MainWindow
 
     Public Sub addGroup(ByVal group As campGroup)
         groupList.Add(group)
+<<<<<<< HEAD
         groupCount = groupCount + 1
         ComboBox1.Items.Add(group.getGroupName)
     End Sub
@@ -115,4 +122,20 @@ Public Class MainWindow
 
 
 
+=======
+        'groupList(groupCount) = group
+        groupCount = groupCount + 1
+    End Sub
+    'Debugging array:
+
+    'Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    'Dim index As Integer = groupCount
+    'Dim groupIndex As Integer = groupCount - 1
+    'While index > 0
+    '       MessageBox.Show(CStr(groupList(groupIndex).displayInfo))
+    '      index = index - 1
+    '     groupIndex = groupIndex - 1
+    'End While
+    'End Sub
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
 End Class

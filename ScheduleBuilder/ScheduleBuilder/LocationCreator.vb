@@ -1,6 +1,7 @@
 ﻿'Class for creating locations
 'Author: Alden Poole
 Public Class LocationCreator
+<<<<<<< HEAD
     Dim locNum As Integer
     Dim ageID As Integer
     Dim maxSize As Integer
@@ -62,4 +63,7 @@ Public Class LocationCreator
     Private Sub btnLocExit_Click(sender As Object, e As EventArgs) Handles btnGroupExit.Click
         Me.Close()
     End Sub
+=======
+
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
 End Class

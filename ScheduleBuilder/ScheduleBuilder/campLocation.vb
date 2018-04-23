@@ -13,6 +13,7 @@ Public Class campLocation
         ageID = age
         maxSize = size
         locationName = name
+<<<<<<< HEAD
         population = 0
     End Sub
     'Check ageRestriction against group age
@@ -20,16 +21,31 @@ Public Class campLocation
         If age >= ageID Then
             available = True
         ElseIf age < ageID Then
+=======
+    End Sub
+    'Check ageRestriction against group age
+    Public Function ageRestrict(ByVal age As Integer)
+        If ageID <= age Then
+            available = True
+        ElseIf ageID > age Then
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
             available = False
         End If
         Return available
     End Function
     'Check to see if sizeRestriction has been met
+<<<<<<< HEAD
     Public Function sizeRestriction(ByVal groupNum As Integer)
         Dim pop = population + groupNum
         If pop < maxSize Then
             available = True
         ElseIf pop > maxSize Then
+=======
+    Public Function sizeRestriction()
+        If population < (maxSize - 6) Then
+            available = True
+        ElseIf population > (maxSize - 5) Then
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
             available = False
         End If
         Return available
@@ -57,6 +73,7 @@ Public Class campLocation
         population = population + pop
         ageList.Add(age)
     End Sub
+<<<<<<< HEAD
     Public Function getName()
         Return locationName
     End Function
@@ -76,5 +93,8 @@ Public Class campLocation
         population = 0
         ageList.Clear()
     End Sub
+=======
+    '*****STILL NO DISPLAY OR WRITE INFO FUNCTIONS******
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
 
 End Class

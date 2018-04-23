@@ -94,7 +94,10 @@
   <ItemGroup>
     <Compile Include="campGroup.vb" />
     <Compile Include="campLocation.vb" />
+<<<<<<< HEAD
     <Compile Include="CreateSchedule.vb" />
+=======
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
     <Compile Include="GroupCreator.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -172,7 +175,10 @@
     <None Include="images\ylogo.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="text\groupsList.txt" />
+=======
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
     <Content Include="ylogo_g2I_icon.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -187,6 +193,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <COMReference Include="Microsoft.Office.Core">
       <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
@@ -216,6 +223,8 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+=======
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

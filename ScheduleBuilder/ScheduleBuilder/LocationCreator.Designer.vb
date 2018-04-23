@@ -27,7 +27,11 @@ Partial Class LocationCreator
         Me.Label5 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.group1 = New System.Windows.Forms.GroupBox()
+<<<<<<< HEAD
         Me.txtLocName = New System.Windows.Forms.TextBox()
+=======
+        Me.txtGroupName = New System.Windows.Forms.TextBox()
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtSize = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -37,7 +41,11 @@ Partial Class LocationCreator
         Me.radFox = New System.Windows.Forms.RadioButton()
         Me.radBob = New System.Windows.Forms.RadioButton()
         Me.radChip = New System.Windows.Forms.RadioButton()
+<<<<<<< HEAD
         Me.btnCreateLoc = New System.Windows.Forms.Button()
+=======
+        Me.btnCreateGroup = New System.Windows.Forms.Button()
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         Me.btnGroupExit = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.group1.SuspendLayout()
@@ -49,11 +57,19 @@ Partial Class LocationCreator
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Indigo
+<<<<<<< HEAD
         Me.Label6.Location = New System.Drawing.Point(31, 56)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(154, 26)
         Me.Label6.TabIndex = 8
         Me.Label6.Text = "Location Creator"
+=======
+        Me.Label6.Location = New System.Drawing.Point(43, 56)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(134, 26)
+        Me.Label6.TabIndex = 8
+        Me.Label6.Text = "Group Creator"
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         '
         'Label5
         '
@@ -78,7 +94,11 @@ Partial Class LocationCreator
         '
         'group1
         '
+<<<<<<< HEAD
         Me.group1.Controls.Add(Me.txtLocName)
+=======
+        Me.group1.Controls.Add(Me.txtGroupName)
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         Me.group1.Controls.Add(Me.Label3)
         Me.group1.Controls.Add(Me.txtSize)
         Me.group1.Controls.Add(Me.Label2)
@@ -91,6 +111,7 @@ Partial Class LocationCreator
         Me.group1.TabStop = False
         Me.group1.Text = "Location Information:"
         '
+<<<<<<< HEAD
         'txtLocName
         '
         Me.txtLocName.BackColor = System.Drawing.SystemColors.Control
@@ -98,6 +119,15 @@ Partial Class LocationCreator
         Me.txtLocName.Name = "txtLocName"
         Me.txtLocName.Size = New System.Drawing.Size(115, 26)
         Me.txtLocName.TabIndex = 10
+=======
+        'txtGroupName
+        '
+        Me.txtGroupName.BackColor = System.Drawing.SystemColors.Control
+        Me.txtGroupName.Location = New System.Drawing.Point(112, 72)
+        Me.txtGroupName.Name = "txtGroupName"
+        Me.txtGroupName.Size = New System.Drawing.Size(115, 26)
+        Me.txtGroupName.TabIndex = 10
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         '
         'Label3
         '
@@ -210,6 +240,7 @@ Partial Class LocationCreator
         Me.radChip.Text = "Chipmunk (Default)"
         Me.radChip.UseVisualStyleBackColor = True
         '
+<<<<<<< HEAD
         'btnCreateLoc
         '
         Me.btnCreateLoc.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -220,6 +251,18 @@ Partial Class LocationCreator
         Me.btnCreateLoc.TabIndex = 11
         Me.btnCreateLoc.Text = "Create Location"
         Me.btnCreateLoc.UseVisualStyleBackColor = True
+=======
+        'btnCreateGroup
+        '
+        Me.btnCreateGroup.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCreateGroup.ForeColor = System.Drawing.Color.Indigo
+        Me.btnCreateGroup.Location = New System.Drawing.Point(18, 247)
+        Me.btnCreateGroup.Name = "btnCreateGroup"
+        Me.btnCreateGroup.Size = New System.Drawing.Size(124, 23)
+        Me.btnCreateGroup.TabIndex = 11
+        Me.btnCreateGroup.Text = "Create Group"
+        Me.btnCreateGroup.UseVisualStyleBackColor = True
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         '
         'btnGroupExit
         '
@@ -239,7 +282,11 @@ Partial Class LocationCreator
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(507, 282)
         Me.Controls.Add(Me.btnGroupExit)
+<<<<<<< HEAD
         Me.Controls.Add(Me.btnCreateLoc)
+=======
+        Me.Controls.Add(Me.btnCreateGroup)
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.group1)
         Me.Controls.Add(Me.Label6)
@@ -262,7 +309,11 @@ Partial Class LocationCreator
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents group1 As GroupBox
+<<<<<<< HEAD
     Friend WithEvents txtLocName As TextBox
+=======
+    Friend WithEvents txtGroupName As TextBox
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
     Friend WithEvents Label3 As Label
     Friend WithEvents txtSize As TextBox
     Friend WithEvents Label2 As Label
@@ -272,6 +323,10 @@ Partial Class LocationCreator
     Friend WithEvents radFox As RadioButton
     Friend WithEvents radBob As RadioButton
     Friend WithEvents radChip As RadioButton
+<<<<<<< HEAD
     Public WithEvents btnCreateLoc As Button
+=======
+    Public WithEvents btnCreateGroup As Button
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
     Public WithEvents btnGroupExit As Button
 End Class

@@ -28,6 +28,7 @@ Partial Class MainWindow
         Me.lblLocNum = New System.Windows.Forms.Label()
         Me.lblGroupNum = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+<<<<<<< HEAD
         Me.btnLoc = New System.Windows.Forms.Button()
         Me.btnGroup = New System.Windows.Forms.Button()
         Me.btnCreateSched = New System.Windows.Forms.Button()
@@ -35,6 +36,13 @@ Partial Class MainWindow
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
+=======
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnGroup = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -81,7 +89,11 @@ Partial Class MainWindow
         '
         'GroupBox1
         '
+<<<<<<< HEAD
         Me.GroupBox1.Controls.Add(Me.btnLoc)
+=======
+        Me.GroupBox1.Controls.Add(Me.Button2)
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         Me.GroupBox1.Controls.Add(Me.btnGroup)
         Me.GroupBox1.Controls.Add(Me.txtLocNum)
         Me.GroupBox1.Controls.Add(Me.lblGroupNum)
@@ -89,13 +101,18 @@ Partial Class MainWindow
         Me.GroupBox1.Controls.Add(Me.lblLocNum)
         Me.GroupBox1.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Indigo
+<<<<<<< HEAD
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+=======
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 142)
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(405, 112)
         Me.GroupBox1.TabIndex = 10
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Populate Schedule Items:"
         '
+<<<<<<< HEAD
         'btnLoc
         '
         Me.btnLoc.Location = New System.Drawing.Point(261, 34)
@@ -104,6 +121,16 @@ Partial Class MainWindow
         Me.btnLoc.TabIndex = 11
         Me.btnLoc.Text = "Create Locations"
         Me.btnLoc.UseVisualStyleBackColor = True
+=======
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(261, 34)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(138, 23)
+        Me.Button2.TabIndex = 11
+        Me.Button2.Text = "Create Locations"
+        Me.Button2.UseVisualStyleBackColor = True
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         '
         'btnGroup
         '
@@ -114,6 +141,7 @@ Partial Class MainWindow
         Me.btnGroup.Text = "Create Groups"
         Me.btnGroup.UseVisualStyleBackColor = True
         '
+<<<<<<< HEAD
         'btnCreateSched
         '
         Me.btnCreateSched.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -124,12 +152,28 @@ Partial Class MainWindow
         Me.btnCreateSched.TabIndex = 11
         Me.btnCreateSched.Text = "Create Schedule"
         Me.btnCreateSched.UseVisualStyleBackColor = True
+=======
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.Indigo
+        Me.Button3.Location = New System.Drawing.Point(12, 281)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(296, 35)
+        Me.Button3.TabIndex = 11
+        Me.Button3.Text = "Create Schedule"
+        Me.Button3.UseVisualStyleBackColor = True
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         '
         'btnExit
         '
         Me.btnExit.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnExit.ForeColor = System.Drawing.Color.Indigo
+<<<<<<< HEAD
         Me.btnExit.Location = New System.Drawing.Point(314, 225)
+=======
+        Me.btnExit.Location = New System.Drawing.Point(314, 281)
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(103, 35)
         Me.btnExit.TabIndex = 12
@@ -139,13 +183,20 @@ Partial Class MainWindow
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.ScheduleBuilder.My.Resources.Resources.ylogo
+<<<<<<< HEAD
         Me.PictureBox1.Location = New System.Drawing.Point(314, 130)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(103, 89)
+=======
+        Me.PictureBox1.Location = New System.Drawing.Point(145, 12)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(146, 124)
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 13
         Me.PictureBox1.TabStop = False
         '
+<<<<<<< HEAD
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
@@ -165,17 +216,25 @@ Partial Class MainWindow
         Me.Label1.TabIndex = 15
         Me.Label1.Text = "Select Group to Schedule:"
         '
+=======
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         'MainWindow
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(429, 328)
+<<<<<<< HEAD
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnCreateSched)
+=======
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.Button3)
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
         Me.Controls.Add(Me.GroupBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MainWindow"
@@ -184,7 +243,10 @@ Partial Class MainWindow
         Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+<<<<<<< HEAD
         Me.PerformLayout()
+=======
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
 
     End Sub
     Friend WithEvents txtLocNum As TextBox
@@ -192,6 +254,7 @@ Partial Class MainWindow
     Friend WithEvents lblLocNum As Label
     Friend WithEvents lblGroupNum As Label
     Friend WithEvents GroupBox1 As GroupBox
+<<<<<<< HEAD
     Friend WithEvents btnLoc As Button
     Friend WithEvents btnGroup As Button
     Friend WithEvents btnCreateSched As Button
@@ -199,4 +262,11 @@ Partial Class MainWindow
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label1 As Label
+=======
+    Friend WithEvents Button2 As Button
+    Friend WithEvents btnGroup As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents btnExit As Button
+    Friend WithEvents PictureBox1 As PictureBox
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
 End Class

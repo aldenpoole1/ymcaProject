@@ -21,6 +21,7 @@ E:\Programming Projects\ScheduleBuilder\ScheduleBuilder\ScheduleBuilder\obj\Debu
 E:\Programming Projects\ScheduleBuilder\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.GroupCreator.resources
 E:\Programming Projects\ScheduleBuilder\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.MainWindow.resources
 E:\Programming Projects\ScheduleBuilder\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.LocationCreator.resources
+<<<<<<< HEAD
 E:\Programming Projects\ScheduleBuilder1\ScheduleBuilder\ScheduleBuilder\ScheduleBuilder\bin\Debug\ScheduleBuilder.exe.config
 E:\Programming Projects\ScheduleBuilder1\ScheduleBuilder\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.exe
 E:\Programming Projects\ScheduleBuilder1\ScheduleBuilder\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.xml
@@ -45,3 +46,5 @@ C:\Users\dpoole5\Documents\Visual Studio 2015\Projects\ScheduleBuilder\ScheduleB
 C:\Users\dpoole5\Documents\Visual Studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.LocationCreator.resources
 C:\Users\dpoole5\Documents\Visual Studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.MainWindow.resources
 C:\Users\dpoole5\Documents\Visual Studio 2015\Projects\ScheduleBuilder\ScheduleBuilder\obj\Debug\ScheduleBuilder.Schedule.resources
+=======
+>>>>>>> 010ed414b239e8b19303593df9d41c2f4e1b8082
